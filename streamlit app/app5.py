@@ -15,7 +15,7 @@ from utils.annotation import read_txt, output_txt
 from utils.__init__ import st_img_label  # custom image labeling component
 
 # Load YOLO model
-model = YOLO(r"C:\Thesis\Dataprep\YOLO_classification\runs\detect\train\weights\best.pt")
+model = YOLO("best.pt")
 
 st.set_page_config(layout="wide")
 st.title("📄 Automated Weld Detection")
